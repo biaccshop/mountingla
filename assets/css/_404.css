@@ -1,0 +1,107 @@
+/* Errorpage section */
+.Errorpage {
+    padding: 0 10rem;
+    min-height: calc(100vh);
+    color: var(--color-text-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Errorpage-content {
+    width: 100%;
+}
+
+.Errorpage-content h1 {
+    font-size: 1.8rem;
+    color: var(--color-primary);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 3rem;
+}
+
+.Errorpage-content h2 {
+    font-size: 6rem;
+    color: var(--color-text-dark);
+    font-weight: var(--font-weight-bold);
+    line-height: 1;
+    margin-bottom: 4rem;
+}
+
+.Errorpage-content p {
+    font-size: 1.8rem;
+    color: var(--color-text-dark);
+    font-weight: var(--font-weight-normal);
+    text-align: left;
+}
+
+.Errorpage-content a {
+    margin-right: 2rem;
+    margin-top: 5rem;
+    font-size: 1.65rem;
+}
+
+
+
+/*  834px - 1068px - Laptop Sections */
+@media screen and (min-width: 834px) and (max-width: 1068px) {
+}
+
+
+
+/*  576px - 833px - Tablet Sections */
+@media screen and (min-width: 576px) and (max-width: 833px) {
+
+    .Errorpage {
+        padding: 5rem 0 20rem 0;
+        min-height: auto;
+    }
+
+    .Errorpage-content h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .Errorpage-content h2 {
+        font-size: 6rem;
+        text-align: center;
+    }
+
+    .Errorpage-content p {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .Errorpage-content a {
+        width: 100%;
+    }
+}
+
+
+
+/*  575px and Lower - Mobile Sections */
+@media screen and (max-width: 575px) {
+
+    .Errorpage {
+        padding: 5rem 0 20rem 0;
+        min-height: auto;
+    }
+
+    .Errorpage-content h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .Errorpage-content h2 {
+        font-size: 6rem;
+        text-align: center;
+    }
+
+    .Errorpage-content p {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .Errorpage-content a {
+        width: 100%;
+    }
+}

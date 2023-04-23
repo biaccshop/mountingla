@@ -1,0 +1,140 @@
+/* General site settings Starting */
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,
+body,
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+button {
+    border: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+i,
+img {
+    user-select: none;
+    pointer-events: none;
+}
+
+/* General site settings End */
+
+
+
+/* Root Starting */
+:root {
+    /* Colors */
+    --color-primary: #febd16;
+    --color-text-light: #fff;
+    --color-text-dark: #000;
+    /* Font weights */
+    --font-weight-normal: 500;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+    /* Font families */
+    --font-family-1: 'Bebas', sans-serif;
+    --font-family-2: 'Montserrat', sans-serif;
+}
+/* Roots End */
+
+
+
+/* Font Setup Starting */
+html {
+    font-size: 10px;
+    font-family: var(--font-family-1);
+    font-weight: var(--font-weight-normal);
+}
+
+body {
+    font-family: var(--font-family-1);
+    font-weight: var(--font-weight-normal);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: var(--color-dark);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-2);
+    font-weight: var(--font-weight-bold);
+}
+
+p,
+a,
+ul,
+ol {
+    font-family: var(--font-family-1);
+    font-weight: var(--font-weight-normal);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/* Font Setup End */
+
+
+
+/*  834px - 1068px - Laptop Fonts */
+@media screen and (min-width: 834px) and (max-width: 1068px) {
+    body {
+        font-size: 1.4rem;
+    }
+}
+
+
+/*  576px - 833px - Tablet Fonts */
+@media screen and (min-width: 576px) and (max-width: 833px) {
+    body {
+        font-size: 1.1rem;
+    }
+}
+
+/*  575px and Lower - Mobile Fonts */
+@media screen and (max-width: 575px) {
+    body {
+        font-size: 0.8rem;
+    }
+
+}

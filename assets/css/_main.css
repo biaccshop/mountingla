@@ -1,0 +1,463 @@
+/* 1069px and Upper - Desktop Sections */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1.2rem 1.8rem;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.3s ease;
+    font-family: var(--font-family-1);
+    font-weight: var(--font-weight-bold);
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.btn-gohomepage {
+    background-color: var(--color-primary);
+    box-shadow: 0 2px 2px rgba(26, 27, 27, 0.75);
+    color: var(--color-dark);
+    width: 22.5rem;
+}
+
+.rightarrow-icon {
+    font-size: 1.6rem;
+    color: var(--color-dark);
+    margin-left: 1.5rem;
+    transition: 0.3s ease;
+}
+
+.bold {
+    font-weight: var(--font-weight-bold);
+}
+
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+/* Hero section */
+.hero {
+    width: 100%;
+    height: auto;
+    background-image: url('/assets/images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content {
+    height: auto;
+}
+
+.hero-content p {
+    display: inline-block;
+    width: 100%;
+    padding: 2rem 5rem 0 5rem;
+    color: var(--color-primary);
+    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, sans-serif;
+    font-weight: var(--font-weight-normal);
+    font-size: 4rem;
+    line-height: 100%;
+    text-align: center;
+}
+
+.hero-content p span a {
+    color: var(--color-text-light);
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, sans-serif;
+    font-weight: var(--font-weight-normal);
+    font-size: 4rem;
+    line-height: 100%;
+}
+
+.hero-image {
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image i img {
+    width: 100%;
+    border: 4px solid var(--color-primary);
+}
+
+
+
+/* Booking section */
+.booking {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#booking-button {
+    width: 100%;
+}
+
+.booking-button {
+    width: 65%;
+    margin: 0 auto;
+    padding: 2rem 0 2.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.booking-button i img {
+    width: 100%;
+}
+
+
+
+
+.booking-content {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.booking-content p {
+    color: var(--color-text-dark);
+    font-weight: var(--font-weight-normal);
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.booking-content p span a {
+    color: var(--color-primary);
+    text-decoration: underline;
+    font-weight: var(--font-weight-bold);
+    font-size: 20px;
+    line-height: 100%;
+}
+
+
+
+
+
+.portfolio-title {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5rem 0 2.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-title i img {
+    width: 100%;
+}
+
+.portfolio-grid {
+    display: grid;
+    width: 100%;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+.portfolio-grid img {
+    width: 100%;
+}
+
+.portfolio-note p {
+    display: inline-block;
+    width: 100%;
+    padding: 2.5rem 5rem 2.5rem 5rem;
+    color: var(--color-text-dark);
+    font-weight: var(--font-weight-bold);
+    font-size: 1.5rem;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reviews-title {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 2.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.reviews-title i img {
+    width: 100%;
+}
+
+
+
+/* Reviews section */
+.review-section {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    gap: 0.7rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.review-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: calc(25%);
+    gap: 0.7rem;
+}
+
+.review {
+    height: auto;
+    padding: 2rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.08);
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+}
+
+.avatar {
+    width: 45px;
+    height: 45px;
+    background-color: #e5f8ff;
+    color: #00a3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.review-name {
+    font-weight: var(--font-weight-bold);
+    position: relative;
+    display: inline-block;
+    position: relative;
+    left: 55px;
+    top: 0;
+    pointer-events: none;
+}
+
+.star {
+    color: #f5bf1f;
+    position: relative;
+    left: 55px;
+    top: 0;
+    pointer-events: none;
+}
+
+.review-text {
+    position: relative;
+    top: 8px;
+}
+
+
+
+/* Footer section */
+.parallax-inner {
+    width: 100%;
+    height: 70vw;
+    background-image: url('/assets/images/footer-parallax.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.parallax-inner a {
+    padding-top: 4.4vw;
+}
+
+
+
+
+
+/*  834px - 1068px - Laptop Sections */
+@media screen and (min-width: 834px) and (max-width: 1068px) {
+    .hero-content p {
+        font-size: 3.5rem;
+        padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+    }
+
+    .hero-content p span a {
+        font-size: 3.5rem;
+    }
+
+    .booking-button {
+        width: 100%;
+    }
+
+    .booking-content {
+        width: 75%;
+    }
+
+    .booking-content p {
+        font-size: 1.6rem;
+        line-height: 1.7rem;
+    }
+
+    .booking-content p span a {
+        font-size: 1.6rem;
+        line-height: 1.7rem;
+    }
+
+    /* Reviews section */
+    .review-section {
+        width: 90%;
+    }
+
+    .review-col {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: calc(50%);
+        gap: 0.5rem;
+    }
+
+    .avatar {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .review-name {
+        left: 50px;
+    }
+
+    .star {
+        left: 50px;
+    }
+}
+
+/*  576px - 833px - Tablet Sections */
+@media screen and (min-width: 576px) and (max-width: 833px) {
+    .hero-content p {
+        font-size: 2.5rem;
+        padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+    }
+
+    .hero-content p span a {
+        font-size: 2.5rem;
+    }
+
+    .booking-button {
+        width: 100%;
+    }
+
+    .booking-content {
+        width: 75%;
+    }
+
+    .booking-content p {
+        font-size: 1.6rem;
+        line-height: 1.7rem;
+    }
+
+    .booking-content p span a {
+        font-size: 1.6rem;
+        line-height: 1.7rem;
+    }
+
+    /* Reviews section */
+    .review-section {
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-col {
+        width: calc(100%);
+    }
+
+    .avatar {
+        width: 32px;
+        height: 32px;
+        font-size: 10px;
+    }
+
+    .review-name {
+        left: 45px;
+    }
+
+    .star {
+        left: 45px;
+    }
+}
+
+
+/*  575px and Lower - Mobile Sections */
+@media screen and (max-width: 575px) {
+    .hero-content p {
+        font-size: 2.5rem;
+        padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+    }
+
+    .hero-content p span a {
+        font-size: 2.5rem;
+    }
+
+    .booking-button {
+        width: 100%;
+    }
+
+    .booking-content {
+        width: 90%;
+    }
+
+    .booking-content p {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+
+    .booking-content p span a {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+
+    /* Reviews section */
+    .review-section {
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2rem;
+    }
+
+    .review-col {
+        width: calc(100%);
+    }
+
+    .avatar {
+        width: 32px;
+        height: 32px;
+        font-size: 10px;
+    }
+
+    .review-name {
+        left: 45px;
+    }
+
+    .star {
+        left: 45px;
+    }
+
+    .review-text {
+        top: 14px;
+    }
+}
